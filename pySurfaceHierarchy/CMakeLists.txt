@@ -21,7 +21,7 @@ add_definitions(-DOM_STATIC_BUILD)
 add_definitions(-DNOMINMAX)
 
 #include eigen
-set(EIGEN_PATH "D:/lib/eigen323")
+set(EIGEN_PATH "D:/lib/eigen-eigen-323c052e1731")
 include_directories(${EIGEN_PATH})
 
 #include GeometricTools
@@ -40,7 +40,7 @@ SET(PYBIND11_PATH "D:/lib/pybind11")
 include_directories(${PYBIND11_PATH}/include/)
 
 #include python path
-SET(PYTHON_PATH "C:/Python/Python35")
+SET(PYTHON_PATH "D:/python/python37")
 include_directories(${PYTHON_PATH}/include/)
 link_directories(${PYTHON_PATH}/libs/)
 
@@ -63,4 +63,4 @@ target_link_libraries(pySurfaceHierarchy
 target_link_libraries(pySurfaceHierarchy ANN.lib)
 
 #link python lib
-target_link_libraries(pySurfaceHierarchy python3.lib python35.lib)
+target_link_libraries(pySurfaceHierarchy python3.lib python37.lib)
