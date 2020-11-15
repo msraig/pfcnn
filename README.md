@@ -1,5 +1,16 @@
 # PFCNN: Convolutional Neural Networks on 3D Surfaces Using Parallel Frames
+This repository contains the implementation of PFCNN introduced in our CVPR 2020 paper.
 
+### Citation
+If you find our work useful in your research, please consider citing:
+
+    @inproceedings{yang2020pfcnn,
+        title={PFCNN: Convolutional Neural Networks on 3D Surfaces Using Parallel Frames},
+        author={Yang, Yuqi and Liu, Shilin and Pan, Hao and Liu, Yang and Tong, Xin},
+        booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+        pages={13578--13587},
+        year={2020}
+    }
 ### Instalation
 
 The code is divided in two parts: A C++ part for data preprocessing. The C++ part code is in pySurfaceHierarchy folder. Using pybind11, you can bind the C++ part with python part with a 'pyd' file. To compile the code you will also need to install following libraries:
