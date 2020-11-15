@@ -6,7 +6,7 @@ from read_data import DataReader
 data_path = 'D:/data/SHREC15_nonrigid/SHREC15NonRigidTestDB/cleaned/output/'
 output_path = 'E:/data/TFRecords/'
 raw_label_path = "D:/data/SHREC15_nonrigid/test.cla"
-label_path = "D:/Yuqi/data/SHREC15_nonrigid/labels.txt"
+label_path = "D:/data/SHREC15_nonrigid/labels.txt"
 
 reader = DataReader()
 class_dict = reader.read_raw_labels(raw_label_path)

@@ -539,14 +539,14 @@ void store_tan_para_from_pc(std::string dataset_path, std::string ext, int strat
 void store_tan_para(std::string dataset_path, std::string ext, int start_level, int level_num, double *grid_length)
 {
 	//double grid_length[3] = { 0.01, 0.015, 0.025 };
-	//std::string dataset_path = "D:\\Yuqi\\data\\MPI-FAUST_training\\cleaned_dataset\\";
+	//std::string dataset_path = "D:\\data\\MPI-FAUST_training\\cleaned_dataset\\";
 	//std::string ext = "*_0.obj";
 	tan_para(dataset_path, ext, start_level, level_num, grid_length);
 	hrch_axis_corr(dataset_path, ext, start_level, level_num);
 	/*
 	double grid_length[3] = { 0.01, 0.02, 0.04 };
-	std::string train_path = "D:\\Yuqi\\data\\sig17_seg\\v_based_3level\\train\\";
-	std::string test_path = "D:\\Yuqi\\data\\sig17_seg\\v_based_3level\\test\\";
+	std::string train_path = "D:\\data\\sig17_seg\\v_based_3level\\train\\";
+	std::string test_path = "D:\\data\\sig17_seg\\v_based_3level\\test\\";
 	tan_para(train_path, "*_0.obj", 0, 3, grid_length);
 	tan_para(test_path, "*_0.obj", 0, 3, grid_length);
 	*/
