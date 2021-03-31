@@ -1,5 +1,5 @@
 # PFCNN: Convolutional Neural Networks on 3D Surfaces Using Parallel Frames
-This repository contains the implementation of PFCNN introduced in our CVPR 2020 paper.
+This repository contains the implementation of PFCNN introduced in our CVPR 2020 [paper](https://haopan.github.io/surfacecnn.html).
 
 ### Citation
 If you find our work useful in your research, please consider citing:
